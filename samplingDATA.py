@@ -28,7 +28,7 @@ def random_set_of_mean(counter):
     return mean
 
 def show_fig(mean_list):
-    df=mean_list
+    df=[mean_list]
     fig=ff.create_distplot((df),["reading_time"],show_hist=False)
     fig.show()
 
